@@ -1,9 +1,16 @@
-print('loading')
 wax.shared.EverloseStartTime = tick()
 
-print(wax)
-for i,v in wax.script do
-    print(i,v)
-end
-print('--------------')
-warn('loaded!')
+--// UI
+local UI = require('Utils/UI')
+
+--// Services
+local Services = require('Utils/Services')
+Services:GetServices({
+    'RunService',
+    'UserInputService',
+    'TweenService',
+    'ContextActionService',
+    'Players',
+    'ReplicatedStorage',
+    'CoreGui',
+})
