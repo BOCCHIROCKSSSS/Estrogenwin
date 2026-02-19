@@ -1,3 +1,7 @@
--- \\ Loader // --
+wax.shared.Everlose = true
 
-warn("Loading")
+print(wax)
+for i,v in wax do
+    print(i,v)
+end
+warn('loaded!')
