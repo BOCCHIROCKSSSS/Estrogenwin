@@ -41,7 +41,7 @@ return function()
 					local PlrFromChar = Players:GetPlayerFromCharacter(ESP.CurrentSettings.Model)
 					if PlrFromChar then
 						local FinalColor: Color3 = (PlrFromChar.Team == nil and Color or PlrFromChar.TeamColor.Color)
-						ESP:SetEveryColor(FinalColor, false)
+						ESP:SetEveryColor(FinalColor, true)
 					end
 				end)
 				if not S then
