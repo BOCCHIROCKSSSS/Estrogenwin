@@ -1,4 +1,3 @@
-local PlayerHydrationService = game:GetService("PlayerHydrationService")
 return function()
 	local Library: Library = wax.shared.Library
 	local Services = wax.shared.Services
