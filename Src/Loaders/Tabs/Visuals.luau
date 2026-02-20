@@ -1,3 +1,5 @@
+--!nocheck
+
 return function()
 	wax.shared.ESPCache = {
 		Players = {},
