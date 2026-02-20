@@ -1,6 +1,8 @@
 local cloneref = (cloneref or function(instance: any) return instance end)
 
 local Services = {}
+Services.__index = Services
+
 function Services:GetService(serviceName: string)
     if shared[serviceName] then return shared[serviceName] end
 
